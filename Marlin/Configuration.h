@@ -15,8 +15,8 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_VERSION_CONFIG_H "MendelMax_2-0_RAMBo_1-2_E3D on " __DATE__ " " __TIME__ // build date and time
-#define STRING_CONFIG_H_AUTHOR "Maker's Tool Works edited Jan 7, 2014" // Who made the changes.
+#define STRING_VERSION_CONFIG_H "MendelMax_2-0_RAMPS_1-4_E3D_SKSP on " __DATE__ " " __TIME__ // build date and time
+#define STRING_CONFIG_H_AUTHOR "xorrbit Dec 10, 2014" // Who made the changes.
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
 // This allows the connection of wireless adapters (for instance) to non-default port pins.
@@ -24,8 +24,8 @@
 #define SERIAL_PORT 0
 
 // This determines the communication speed of the printer
-#define BAUDRATE 250000
-//#define BAUDRATE 115200
+//#define BAUDRATE 250000
+#define BAUDRATE 115200
 
 // This enables the serial port associated to the Bluetooth interface
 //#define BTENABLED              // Enable BT interface on AT90USB devices
@@ -70,7 +70,7 @@
 // 21 = Elefu Ra Board (v3)
 
 #ifndef MOTHERBOARD
-#define MOTHERBOARD 301
+#define MOTHERBOARD 33
 #endif
 
 // Define this to set a custom name for your generic Mendel,
